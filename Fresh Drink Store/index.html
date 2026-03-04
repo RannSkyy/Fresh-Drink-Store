@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FreshDrink Store</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <h1>FreshDrink Store</h1>
+  <p>Premium Fresh Beverage Experience</p>
+</header>
+
+<main class="main">
+
+  <!-- MENU SECTION -->
+  <section class="products-section">
+    <h2>Menu Minuman</h2>
+    <div id="product-list" class="product-row"></div>
+  </section>
+
+  <!-- CART SECTION -->
+  <section class="checkout">
+    <h2>Keranjang Belanja</h2>
+    <ul id="cart-list"></ul>
+    <h3 id="total-price">Total: Rp 0</h3>
+
+    <select id="payment-method">
+      <option value="">Pilih Metode Pembayaran</option>
+      <option value="Transfer Bank">Transfer Bank</option>
+      <option value="E-Wallet">E-Wallet</option>
+      <option value="COD">COD</option>
+    </select>
+
+    <button id="pay-btn">Bayar Sekarang</button>
+    <p id="payment-status"></p>
+  </section>
+
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>
