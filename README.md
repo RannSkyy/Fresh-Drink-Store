@@ -22,6 +22,3 @@ FreshDrink Store is a modern beverage e-commerce web application built using van
 - HTML5
 - CSS3 (Flexbox & Responsive Design)
 - JavaScript (DOM Manipulation & LocalStorage)
-
-## 📂 Project Structure
-
